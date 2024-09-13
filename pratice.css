@@ -1,0 +1,58 @@
+header{
+    background-color:brown;
+    color: red;
+    padding:30px;
+     height:30px;
+     width: 100%;
+     postion: fixed;
+}
+
+
+
+
+
+.images{
+    position:absolute;
+    height: 400px;
+    top:300px;
+    left: 50%;
+    border-radius: 20px;
+    margin: 10px;
+    z-index: -1;
+
+
+}
+
+.leftimages{
+    position:absolute;
+
+    top: 80px;
+    left: 10%;
+    z-index: -1 ;
+}
+.rightimages{
+    position: absolute;
+    right: 10%;
+    top: 100px;
+    z-index: -1;
+}
+ body{
+    background-color: aqua;
+ }
+
+button:hover{
+    padding: 5px;
+    background-color: blue
+
+}
+footer{
+    background-color: darkorange;
+    padding :20px;
+    width:100%
+}
+
+
+
+
+    
+
